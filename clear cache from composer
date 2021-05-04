@@ -1,0 +1,20 @@
+Windows
+
+The below mentioned commands can be used to clear composer cache on windows.
+
+// Check Version
+composer --version
+
+// It should show the version like
+Composer version 1.5.2 2017-09-11 16:59:25
+
+
+// Clear the cache
+composer clearcache
+
+// It will show the messages as shown below
+Clearing cache (cache-vcs-dir): C:\Users\user1\AppData\Local\Composer\vcs
+Clearing cache (cache-repo-dir): C:\Users\user1\AppData\Local\Composer\repo
+Clearing cache (cache-files-dir): C:\Users\user1\AppData\Local\Composer\files
+Clearing cache (cache-dir): C:\Users\user1\AppData\Local\Composer
+All caches cleared.
